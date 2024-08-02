@@ -133,11 +133,9 @@ function localeString(n: number) {
 // console.log(localeString(99999999999999999999))
 
 // const str: string = 'Hello' 
-
 // console.log(str.length) //ใช้สำหรับหาจำนวน char หรือจำนวนตัวอักษรของ string
 
 // const str: string = 'Nuttawut' 
-
 // console.log(str.charAt(0)) //ใช้สำหรับดึงตัวอักษรออกมาจากแต่ละตำแหน่ง เริ่มนับจาก 0..1..2.....n
 
 // const str: string = 'Test Test Test Test GGEZ'
