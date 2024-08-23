@@ -49,3 +49,33 @@
 // } while (i <= 1000)
 
 // console.log(sum)
+
+
+//while ที่ถูกรบกวน
+// let i: number = 1
+// let sum: number = 0
+
+// for (let j = 1; j < 10; j++) {
+//     i = i * 5
+// }
+
+// while (i <= 365) {
+//     sum = sum + i
+//     i++
+// }
+
+// console.log(sum)
+
+let sum: number = 0
+let isBeark: boolean = false
+
+setTimeout(() => {
+    isBeark = true
+}, 500)
+
+while (true) {
+    console.log('โสด')
+    if (isBeark) {
+        break
+    }
+} 
