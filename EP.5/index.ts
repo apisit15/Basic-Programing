@@ -66,15 +66,61 @@
 
 // console.log(sum)
 
-let sum: number = 0
-let isBeark: boolean = false
-let row: number = 0
+//การ break infinity loop
+// let sum: number = 0
+// let isBeark: boolean = false
+// let row: number = 0
 
 
-while (true) {
-    console.log('โสด')
-    row++
-    if (row === 3) {
-        break
-    }
+// while (true) {
+//     console.log('โสด')
+//     row++
+//     if (row === 3) {
+//         break
+//     }
+// }
+
+//Array ยากมาก!! ตั้งใจซะ!! เจ้าคนอ่าน!!
+// let car1: string = 'Honda'
+// let car2: string = 'Yamaha'
+// let car3: string = 'Toyota'
+// let car4: string = 'Suzuki'
+
+// const car = ['Honda','Yamaha','Toyota','Suzuki']
+// const nm = [1,2,3,4,5]
+// const bl = [true,false,true,false]
+
+// const myName: string = 'สุดสวย สวยสุด'
+
+// console.log(myName[2])
+// car[1] = 'Mazda'
+// console.log(car[1])
+
+//loop + array
+// const car = ['Honda','Yamaha','Toyota','Suzuki','BYD']
+
+// for (let i = 0; i < car.length; i++) {
+//     console.log(car[i])
+// }
+
+// let i: number = 0
+
+// while (i < car.length) {
+//     console.log(car[i])
+//     i++
+// }
+
+// do {console.log(car[i])
+//     i++
+// } while (i < 4)
+
+
+//Test
+
+const car = ['Honda','Yamaha','Toyota','Suzuki','Mazda']
+
+for (let i = 0; i < car.length; i++) {
+    if (car[i] === 'Yamaha') {
+        console.log('รถซื้อแกง แรงได้ไง')
+    } 
 }
