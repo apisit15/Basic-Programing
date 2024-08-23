@@ -116,11 +116,19 @@
 
 
 //Test
+//loop + Array + if
+// const car = ['Honda','Yamaha','Toyota','Suzuki','Mazda']
 
+// for (let i = 0; i < car.length; i++) {
+//     if (car[i] === 'Yamaha') {
+//         console.log('รถซื้อแกง แรงได้ไง')
+//     } 
+// }
+
+
+//callBack Function
+//.forEach เป็นการวนลูปและพิมพ์ค่าออกมาทุกครั้งที่วน
 const car = ['Honda','Yamaha','Toyota','Suzuki','Mazda']
-
-for (let i = 0; i < car.length; i++) {
-    if (car[i] === 'Yamaha') {
-        console.log('รถซื้อแกง แรงได้ไง')
-    } 
-}
+car.forEach(function(c) {
+    console.log(c)
+})
