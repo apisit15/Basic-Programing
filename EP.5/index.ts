@@ -68,14 +68,13 @@
 
 let sum: number = 0
 let isBeark: boolean = false
+let row: number = 0
 
-setTimeout(() => {
-    isBeark = true
-}, 500)
 
 while (true) {
     console.log('โสด')
-    if (isBeark) {
+    row++
+    if (row === 3) {
         break
     }
-} 
+}
