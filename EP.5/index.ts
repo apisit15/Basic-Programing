@@ -131,4 +131,4 @@
 const car = ['Honda','Yamaha','Toyota','Suzuki','Mazda']
 car.forEach(function(c) {
     console.log(c)
-})
+}) 
